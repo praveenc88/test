@@ -29,4 +29,8 @@ describe('TC6_NewAccount-EDIActive-RoleSalesRep', function () {
            .performSearchForCustomers(global.TIMESTAMP,"Prospect")
            .verifyAccountsOfCustomer(global.TIMESTAMP,accountName);
     });
+
+    it('TC6 - New Account - EDI Active - Role Sales Rep', function () {
+        console.log("test message")
+    });
 });
